@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { UserEntry, Prompt } from '../types';
 import { decemberPrompts, sleighPrompts, fiercestPrompts, heelsPrompts, clausPrompts, grinchPrompts } from '../constants';
-import { NavBar } from '../components/NavBar';
+import { NavBar } from '../COMPONENTS/NavBar';
 
 interface DashboardProps {
   data: UserEntry[];
