@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { dataService } from './services/dataService';
+import { dataService } from './SERVICES/dataService';
 import { Prompt, UserEntry, SongMetadata } from './types';
-import { Modal } from './components/Modal';
-import { MusicBar } from './components/MusicBar';
-import { VideoModal } from './components/VideoModal';
-import { Home } from './views/Home';
-import { Dashboard } from './views/Dashboard';
-import { DecemberDiamonds } from './views/DecemberDiamonds';
-import { SleighAllDay } from './views/SleighAllDay';
-import { FiercestThings } from './views/FiercestThings';
-import { HolidayHeels } from './views/HolidayHeels';
-import { ClausEffect } from './views/ClausEffect';
-import { Grinchified } from './views/Grinchified';
+import { Modal } from './COMPONENTS/Modal';
+import { MusicBar } from './COMPONENTS/MusicBar';
+import { VideoModal } from './COMPONENTS/VideoModal';
+import { Home } from './VIEWS/Home';
+import { Dashboard } from './VIEWS/Dashboard';
+import { DecemberDiamonds } from './VIEWS/DecemberDiamonds';
+import { SleighAllDay } from './VIEWS/SleighAllDay';
+import { FiercestThings } from './VIEWS/FiercestThings';
+import { HolidayHeels } from './VIEWS/HolidayHeels';
+import { ClausEffect } from './VIEWS/ClausEffect';
+import { Grinchified } from './VIEWS/Grinchified';
 import { songs } from './constants';
 
 const App: React.FC = () => {
