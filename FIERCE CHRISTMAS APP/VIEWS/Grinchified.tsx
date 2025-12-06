@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { grinchPrompts, songs } from '../constants';
 import { Prompt, UserEntry, SongMetadata } from '../types';
-import { NavBar } from '../components/NavBar';
+import { NavBar } from '../COMPONENTS/NavBar';
 
 interface Props {
   data: UserEntry[];
