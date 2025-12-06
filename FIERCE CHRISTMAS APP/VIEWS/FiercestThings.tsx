@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { fiercestPrompts, songs } from '../constants';
 import { Prompt, UserEntry, SongMetadata } from '../types';
-import { dataService } from '../services/dataService';
-import { NavBar } from '../components/NavBar';
+import { dataService } from '../SERVICES/dataService';
+import { NavBar } from '../COMPONENTS/NavBar';
 
 interface Props {
   data: UserEntry[];
